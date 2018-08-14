@@ -10,5 +10,5 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
 }
 
 function nonDestructivelyUpdateObjectWithKeyAndValue(object, key, value){
-  return recipes.assign({},recipes{[key]:value});
+  return recipes.assign({},recipes,{[key]:value});
 }
