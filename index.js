@@ -1,1 +1,6 @@
-var object = {foo: 'bar'};
+var recipes = {foo: 'bar'};
+function updateObjectWithKeyAndValue(recipes, key, value){
+  recipes[key]=value;
+  recipes.key;
+}
+
