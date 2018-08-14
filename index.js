@@ -10,7 +10,7 @@ function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value){
   return recipes;
 }
 
-// non-destructive
+// non-destructive 
 function deleteFromObjectByKey(recipes, key){
   const simo= Object.assign({}, recipes);
   delete simo[key];
