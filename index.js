@@ -9,3 +9,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   recipes;
 }
 
+function nonDestructivelyUpdateObjectWithKeyAndValue(object, key, value){
+  
+}
