@@ -1,12 +1,12 @@
 var recipes = {foo: 'bar'};
 function updateObjectWithKeyAndValue(recipes, key, value){
   recipes[key]=value;
-  recipes.key;
+  recipes[key];
 }
 
 function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value){
   recipes[key]=value;
-  recipes;
+  return recipes;
 }
 
 function nonDestructivelyUpdateObjectWithKeyAndValue(recipes, key, value){
